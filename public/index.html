@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="icon" href="assets/icons/logoonlearn.png">
+    <title>OnLearn - Kursus Koding dan Desain Online</title>
+</head>
+<body class="bg-white">
+    <nav id="navbar" class="px-4 py-4 fixed flex w-full justify-between items-center z-10 font-pop shadow-md bg-white">
+        <div class="ml-24 text-3xl font-bold text-indigo-700">
+            <a href="#">OnLearn</a>
+        </div>
+        <div>
+            <ul class="flex font-semibold items-center">
+                <a href="index.html" class="mx-5 font-bold text-indigo-600 hover:text-indigo-600 duration-200 cursor-pointer">Beranda</a>
+                <li class="mx-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer">Kelas</li>
+                <a href="pricing.html" class="mx-5 text-gray-800 hover:text-indigo-600 duration-150 cursor-pointer">Berlangganan</a>
+                <a href="community.html" class="mx-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer">Komunitas</a>
+                <button type="button" class="mr-2 ml-8 px-6 py-2 bg-white border border-indigo-600 hover:bg-indigo-600 hover:text-white duration-200 rounded-md items-center text-indigo-600 font-semibold">Masuk</button>
+                <button type="button" class="mr-24 ml-2 px-6 py-2 bg-indigo-600 hover:bg-indigo-800 duration-200 rounded-md items-center text-white font-semibold">Daftar</button>
+            </ul>
+        </div>
+    </nav>
+    <main class="font-pop">
+        <div id="hero" class="px-24 flex">
+            <div class="pt-56">
+                <h1 class="mb-2 text-5xl font-semibold text-gray-800">Belajar Koding dan Desain</h1>
+                <h1 class="mb-4 text-5xl font-semibold text-gray-800">Kapan Saja, Dimana Saja</h1>
+                <h2 class="text-lg font-regular text-gray-500">Tembus batasan dirimu dalam dunia teknologi melalui kursus yang berkualitas dari OnLearn didampingi oleh mentor yang berpengalaman di industri</h2>
+                <button type="button" class="px-12 py-3 mt-8 bg-indigo-600 hover:bg-indigo-800 duration-200 text-white font-semibold items-center rounded-md">Mulai Berlangganan</button>
+                <button type="button" class="px-6 py-3 ml-2 mt-8 bg-blueGray-100 hover:shadow-xl duration-200 text-indigo-600 font-semibold items-center rounded-md">Lihat Kelas</button>
+            </div>
+            <div class="pt-44 pb-24">
+                <!-- <div class="border-indigo-600 h-60 w-80 rounded-xl" style="border-width: 6px;"></div>
+                <div class="absolute top-44 left-20 right-24 w-80 h-60">
+                    <img src="assets/man.jpg" alt="" width="" class="h-full rounded-xl">
+                </div> -->
+                <img src="assets/man.jpg" alt="" width="880px" class="rounded-xl">
+            </div>
+        </div>
+        <div class="px-24 pt-10 pb-2 mt-12 mb-8 bg-gray-100 font-semibold text-2xl text-gray-700 text-center text-3xl">
+            <h1 class="justify-center">Telah Dipercaya oleh :</h1>
+            <div id="company" class="flex justify-center items-center">
+                <img src="assets/icons/google.svg" alt="" class="" width="160px">
+                <img src="assets/icons/ibm.svg" alt="" class="" width="130px">
+                <img src="assets/icons/microsoft.svg" alt="" class="" width="260px">
+                <img src="assets/icons/aws.svg" alt="" class="" width="120px">
+            </div>
+        </div>
+        <div id="value" class="flex justify-center">
+            <div class="mx-2 my-14 px-8 py-4 bg-indigo-600 rounded-xl flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14" viewBox="0 0 20 20" fill="white">
+                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                </svg>
+                <h1 class="pl-2 text-2xl font-semibold text-white">129.075 Member Aktif</h1>
+            </div>
+            <div class="mx-2 my-14 px-8 py-4 bg-indigo-600 rounded-xl flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14" viewBox="0 0 20 20"fill="white">
+                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm9 4a1 1 0 10-2 0v6a1 1 0 102 0V7zm-3 2a1 1 0 10-2 0v4a1 1 0 102 0V9zm-3 3a1 1 0 10-2 0v1a1 1 0 102 0v-1z" clip-rule="evenodd" />
+                </svg>
+                <h1 class="pl-2 text-2xl font-semibold text-white">124 Kelas Online</h1>
+            </div>
+            <div class="mx-2 my-14 px-8 py-4 bg-indigo-600 rounded-xl flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14" viewBox="0 0 20 20" fill="white">
+                    <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                </svg>
+                <h1 class="pl-2 text-2xl font-semibold text-white">2.543 Materi Belajar</h1>
+            </div>
+        </div>
+        <div id="category" class="px-24 mb-4 justify-center text-center">
+            <h1 class="text-3xl mt-16 font-semibold text-center">Kategori Kelas</h1>
+            <h1 class="text-lg text-gray-800 pt-3">Kelas dirancang baik untuk pemula ataupun profesional yang ingin mengasah skill-nya</h1>
+            <div class="mt-12 flex justify-center">
+                <div class="mx-2 items-center text-center transform hover:scale-105 cursor-pointer duration-200 hover:text-indigo-600">
+                    <img src="assets/android.png" alt="" class="rounded-xl">
+                    <h1 class="pt-3 text-lg font-semibold">Kelas Android Developer</h1>
+                </div>
+                <div class="mx-2 items-center transform hover:scale-105 cursor-pointer duration-200 hover:text-indigo-600">
+                    <img src="assets/frontend.png" alt="" class="rounded-xl">
+                    <h1 class="pt-3 text-lg font-semibold">Kelas Front-End Web Developer</h1>
+                </div>
+                <div class="mx-2 items-center transform hover:scale-105 cursor-pointer duration-200 hover:text-indigo-600">
+                    <img src="assets/backend.png" alt="" class="rounded-xl">
+                    <h1 class="pt-3 text-lg font-semibold">Kelas Back-End Web Developer</h1>
+                </div>
+                <div class="mx-2 items-center transform hover:scale-105 cursor-pointer duration-200 hover:text-indigo-600">
+                    <img src="assets/uiux.png" alt="" class="rounded-xl">
+                    <h1 class="pt-3 text-lg font-semibold">Kelas UI/UX Designer</h1>
+                </div>
+            </div>
+        </div>
+        <div id="why choose us" class="mx-24 my-24 px-24 pb-16 pt-12 justify-center text-center bg-blueGray-200 rounded-lg">
+            <h1 class="font-semibold text-3xl">Kenapa Memilih Kami</h1>
+            <h1 class="text-lg pt-3">Kami menyediakan sumber belajar yang berkualitas dan juga terverifikasi</h1>
+            <h1 class="text-lg">oleh para ahli dibidangnya</h1>
+            <div class="mt-12 flex justify-center">
+                <div class="mx-3 px-5 py-5 items-center text-center bg-white rounded-xl hover:shadow-xl cursor-pointer duration-200">
+                    <img src="assets/curriculum.png" width="400px" alt="" class="rounded-md">
+                    <h1 class="pt-4 font-semibold text-xl">Kurikulum Standar Industri</h1>
+                </div>
+                <div class="mx-3 px-5 py-5 items-center text-center bg-white rounded-xl hover:shadow-xl cursor-pointer duration-200">
+                    <img src="assets/certificate.png" width="400px" alt="" class="rounded-md">
+                    <h1 class="pt-8 font-semibold text-xl">Sertifikat Online</h1>
+                </div>
+                <div class="mx-3 px-5 py-5 items-center text-center bg-white rounded-xl hover:shadow-xl cursor-pointer duration-200">
+                    <img src="assets/community.png" width="400px" alt="" class="rounded-md">
+                    <h1 class="pt-4 font-semibold text-xl">Forum Diskusi Tanya Jawab</h1>
+                </div>
+            </div>
+        </div>
+        <div id="testimoni" class="my-12 px-24 pb-16 pt-12 justify-center text-center bg-indigo-600">
+            <h1 class="font-semibold text-3xl text-white">Testimoni Alumni</h1>
+            <div>
+                <div class="mt-12 grid grid-cols-4">
+                    <div class="mx-2 bg-white rounded-xl cursor-pointer duration-200">
+                        <img src="assets/man1.png" width="300px" alt="" class="rounded-t-xl">
+                        <h1 class="px-5 pt-4 text-xl font-semibold">Sandhika Galih</h1>
+                        <h2 class="px-5 text-md text-gray-500">Web Developer</h2>
+                        <p class="px-5 pt-2 pb-4">"Mentornya keren cara menyampaikan setiap materinya juga detail dan mudah dipahami."</p>
+                    </div>
+                    <div class="mx-2 bg-white rounded-xl cursor-pointer duration-200">
+                        <img src="assets/woman1.png" width="300px" alt="" class="rounded-t-xl">
+                        <h1 class="px-5 pt-4  text-xl font-semibold">Rani Rahmawati</h1>
+                        <h2 class="px-5 text-md text-gray-500">UI Designer</h2>
+                        <p class="px-5 pt-2 pb-4">"Kelas yang paling recommended pokoknya buat investasi ilmu di era revolusi industri 4.0."</p>
+                    </div>
+                    <div class="mx-2 bg-white rounded-xl cursor-pointer duration-200">
+                        <img src="assets/man2.png" width="300px" alt="" class="rounded-t-xl">
+                        <h1 class="px-5 pt-4 text-xl font-semibold">Angga Risky</h1>
+                        <h2 class="px-5 text-md text-gray-500">Web Developer</h2>
+                        <p class="px-5 pt-2 pb-4">"Kelas yang sangat bermanfaat dan ilmu up to date."</p>
+                    </div>
+                    <div class="mx-2 bg-white rounded-xl cursor-pointer duration-200">
+                        <img src="assets/woman2.png" width="300px" alt="" class="rounded-t-xl">
+                        <h1 class="px-5 pt-4 text-xl font-semibold">Rita Agustin</h1>
+                        <h2 class="px-5 text-md text-gray-500">Android Developer</h2>
+                        <p class="px-5 pt-2 pb-4">"Mentornya keren cara menyampaikan setiap materinya juga detail dan mudah dipahami."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="indo" class="px-24 flex">
+            <div class="pt-16 pb-16 grid grid-cols-2">
+                <div>
+                    <img src="assets/kominfo.jpg" alt="" width="550px" class="rounded-xl">
+                </div>
+                <div class="pt-20">
+                    <h1 class="text-3xl font-medium">“Indonesia membutuhkan sembilan juta talenta digital dalam 15 tahun atau rata-rata 600.000 talenta digital per tahun”</h1>
+                    <h1 class="pt-3 text-xl text-gray-500 italic">- Johnny G. Plate, Menteri Kominfo</h1>
+                </div>
+            </div>
+        </div>
+        <div class="mt-14 mb-20 mx-24 px-12 py-6 bg-indigo-600 rounded-xl text-white">
+            <h2 class="pt-6 text-3xl font-semibold">Tunggu Apa Lagi?</h2>
+            <h2 class="pt-2 text-xl font-regular">Mari bersama-sama dengan ratusan member lain mengembangkan skill dan mendapat arahan dari profesional dalam pengembangan karir kamu kedepannya.</h2>
+            <button type="button" class="px-8 py-3 mt-8 mb-6 bg-white hover:shadow-xl duration-150 text-indigo-600 font-semibold items-center rounded-md duration-200 hover:bg-opacity-90">Lihat Kelas</button>
+        </div>
+    </main>
+    <footer>
+        <div class="px-24 h-80 bg-blueGray-200">
+            <div class="grid grid-cols-4">
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-bold text-blueGray-700 uppercase">Kelas</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">Android Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Front-End Web Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Back-End Web Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"> <a href="#">UI/UX Designer</a></li>
+                    </ul>
+                </div>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-bold text-blueGray-700 uppercase">Berlangganan</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">1 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">3 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">6 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">1 Tahun</a></li>
+                    </ul>
+                </div>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-bold text-blueGray-700 uppercase">Tentang Kami</h1>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Layanan Bantuan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Kebijakan Privasi</a></li>
+                    </div>
+                    </ul>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-bold text-blueGray-700 uppercase">Komunitas</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">WhatsApp</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-10 flex items-center">
+                <img src="assets/icons/onlearn.png" width="120px" alt="">
+                <h1 class="pl-4 font-regular text-lg">&copy; PT. Onlearn Sinau Bareng, 2021</h1>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
